@@ -7,6 +7,6 @@ public class App
 	@Test
     public void Testing()
     {
-        System.out.println( "Hello Joydip bhattacharjee!" );
+        System.out.println( "Joydip bhattacharjee!" );
     }
 }
