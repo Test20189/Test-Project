@@ -1,9 +1,9 @@
 pipeline 
 {
   	agent any
+  	stages {
 	stage('myStage')
 	{
-  		agent any
  	 	when
  	 	{
    		 	branch 'master'
@@ -12,6 +12,7 @@ pipeline
   		{
     		sh 'ls -la' 
   		}
+  	}
   	}
 }
 
