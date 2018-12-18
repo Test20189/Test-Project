@@ -1,12 +1,11 @@
 package Test_Project.Testproject;
 
-/**
- * Hello world!
- *
- */
+import org.testng.annotations.Test;
+
 public class App 
 {
-    public static void main( String[] args )
+	@Test
+    public void Testing()
     {
         System.out.println( "Hello World joy!" );
     }
