@@ -1,16 +1,17 @@
 pipeline 
 {
-  agent any
+  	agent any
 	stage('myStage')
 	{
-  	agent any
- 	 when
- 	 {
-   		 branch 'master'
-  	  }
+  		agent any
+ 	 	when
+ 	 	{
+   		 	branch 'master'
+  	  	}
   		steps 
   		{
-    echo 'run this stage - ony if the branch = master branch'
-  }
+    		sh 'ls -la' 
+  		}
+  	}
 }
 
