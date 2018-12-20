@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Test_Project.Testproject.App"/>
+      <class name="Test_Project.Testproject.Testpack"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
