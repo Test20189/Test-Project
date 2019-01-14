@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12315" started-at="2018-12-20T09:08:19Z" finished-at="2018-12-20T09:08:31Z">
+  <suite name="Suite" duration-ms="56" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12315" started-at="2018-12-20T09:08:19Z" finished-at="2018-12-20T09:08:31Z">
-      <class name="Test_Project.Testproject.Testpack">
-        <test-method status="PASS" signature="test1()[pri:0, instance:Test_Project.Testproject.Testpack@6d4b1c02]" name="test1" duration-ms="12283" started-at="2018-12-20T09:08:19Z" finished-at="2018-12-20T09:08:31Z">
+    <test name="Test" duration-ms="56" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+      <class name="Test_Project.Testproject.NewTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- Test_Project.Testproject.Testpack -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="f" duration-ms="7" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="f1" duration-ms="3" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="f2" duration-ms="4" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Test_Project.Testproject.NewTest@1794d431]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-01-11T09:30:00Z" finished-at="2019-01-11T09:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Test_Project.Testproject.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
